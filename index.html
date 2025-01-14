@@ -95,14 +95,13 @@
 
             <div class="d-flex gap-2 btn-mail align-items-center">
                 <div>
-                   
                     <a href="#contact" class="scroll nav-btn-number btn-number-index btn-setting btn-hvr-up btn-hvr-whatsapp" data-bs-toggle="modal" data-bs-target="#formModal">contacto@octopusmx.com</a>
                 </div>
-                <div >
-                    <ul class="icon-redes mt-3" style="position: relative; top: -10px;">
+                <div>
+                    <ul class="icon-redes" style="top: -10px;">
                         
                         <li>
-                            <a href="#contact" data-bs-toggle="modal" data-bs-target="#formModalRH"><p class="UneteUs1">Trabaja con nosotros</p></a>
+                            <a href="#contact" data-bs-toggle="modal" data-bs-target="#formModalRH"><p class="UneteUs1">Envíanos tu CV</p></a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/company/octopus-soluciones-integrales" target="_blank"><img src="octopus/img/footer/ico-linkedin.svg" alt="Linkeding"></a>
@@ -175,7 +174,7 @@
                         <a href="https://www.instagram.com/octopus_soluciones_integrales/" target="_blank"><img src="octopus/img/footer/ico-insta.svg" alt="Instagram"></a>
                     </li>
                     <li>
-                        <a href="#contact" data-bs-toggle="modal" data-bs-target="#formModalRH"><p class="UneteUs">Trabaja con nosotros</p></a>
+                        <a href="#contact" data-bs-toggle="modal" data-bs-target="#formModalRH"><p class="UneteUs">Envíanos tu CV</p></a>
                     </li>
                 </ul>  
             </nav>
@@ -198,7 +197,7 @@
 <section id="home" class="p-0 h-100vh cursor-light">
     <h2 class="d-none">heading</h2>
     <!--Main Slider-->
-    <div id="rev_slider_8_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="weone" data-source="gallery" style="background:transparent;padding:0px;">
+    <div id="rev_slider_8_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="weone" data-source="gallery" style="background:transparent;padding:0px;height: 100%;">
         <!-- START REVOLUTION SLIDER 5.4.8.1 fullscreen mode -->
         <div id="rev_slider_8_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.8.1">
             <ul><!-- SLIDE  -->
@@ -224,11 +223,11 @@
                     <!-- LAYER Text -->
                     <div class="tp-caption color-yellow topi"
                          data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['top','top','top','top']" data-voffset="['270','200','100','15']"
+                         data-y="['top','top','top','top']" data-voffset="['270','200',0','0']"
                          data-fontsize="['60','50','40','40']"
                          data-lineheight="['75','75','75','40']"
                          data-width="['556','556','556','300']"
-                         data-height="['none','none','none','87']"
+                         data-height="['none','none','none','none']"
                          data-whitespace="nowrap"
 
                          data-type="text"
@@ -248,7 +247,7 @@
                                     <img class="lis-logos" src="octopus/img/main_logos_octopus/octopus-servicios-integrales-home.svg"  alt="Servicios Integrales">
                                 </li>
                                 <li class="mb-5 logo_mvs">
-                                    <img src="octopus/img/grupo_mvs.svg" alt="Una empresa de Grupo MVS">
+                                    <img class="px-3" src="octopus/img/grupo_mvs.svg" alt="Una empresa de Grupo MVS">
                                 </li>
                                 <!--
                                 <li>
@@ -269,7 +268,7 @@
 
                          <!--   <img src="octopus/img/LogoOctopus.svg" class="link" alt="logo">-->
 
-                        </div>
+                    </div>
 
 
 
@@ -279,10 +278,10 @@
 
                 <div class="tp-caption color-white submarcas logis"
                 data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                data-y="['top','middle','middle','middle']" data-voffset="['480','160','180','220']"
+                data-y="['top','middle','middle','middle']" data-voffset="['550','140','110','210']"
                 data-whitespace="normal"
-                data-width="['100%','100%','100%','85%']"
-                data-fontsize="['20','15','15','15']"
+                data-width="['100%','100%','90%','100%']"
+                data-fontsize="['14','13','13','13']"
                 data-lineheight="['30','25','22','22']"
                 data-type="text"
                 data-responsive_offset="on"
@@ -294,27 +293,31 @@
                 data-paddingleft="[0,0,0,0]"
                 style="z-index: 10; min-width: 600px; max-width: 700px; white-space: nowrap; font-weight: 300; letter-spacing: 1px;font-family: 'Roboto', sans-serif; position: relative; ">
                 <div>
-                   <ul class="mt-4">
+                   <ul class="d-flex justify-content-center align-items-center flex-wrap gap-2 mx-0">
                        <li style="display: inline-block;">
-                           <a href="contact-center.html"><img class="mr-sm-2 m-md-2 mt-md-5 mr-md-5 logo-link" src="octopus/img/footer/footer-contact-center.svg" alt="contact center"></a>
-
-                       </li>
-                       <li style="display: inline-block;">
-                           <a href="cobranza.html">
-                               <img class="mr-sm-2 m-md-2 mt-md-5 mr-md-5 logo-link" src="octopus/img/footer/footer-octopus-cobranza.svg" alt="cobranza">
-                           </a>
-
-                       </li>
-                       <li style="display: inline-block;">
-                           <a href="logistica.html">
-                               <img class="mr-sm-2 m-md-2 mt-md-5 mr-md-5 logo-link" src="octopus/img/footer/footer-octopus-logistica.svg" alt="logística">
-
+                           <a class="btn-services btn-contact-center" href="contact-center.html">
+                            <span>CONTACT CENTER <br> OMNICANAL</span>
                            </a>
                        </li>
                        <li style="display: inline-block;">
-                           <a href="servicios-campo.html">
-                               <img class="mr-sm-2 m-md-2 mt-md-5 mr-md-5 logo-link" src="octopus/img/footer/octopus-servicios-en-campo.svg" alt="servicios en campo">
-                           </a>
+                        <a class="btn-services btn-cobranza" href="cobranza.html">
+                            <span class="py-2">COBRANZA</span>
+                        </a>
+                       </li>
+                       <li style="display: inline-block;">
+                        <a class="btn-services btn-logistica" href="logistica.html">
+                            <span>LOGÍSTICA <br> Y ÚLTIMA MILLA</span>
+                        </a>
+                       </li>
+                       <li style="display: inline-block;">
+                        <a class="btn-services btn-serv-campo" href="servicios-campo.html">
+                            <span>SERVICIOS <br> EN CAMPO</span>
+                        </a>
+                       </li>
+                       <li style="display: inline-block;">
+                        <a class="btn-services btn-experience360" href="customer-experience.html">
+                            <span>CUSTOMER <br> EXPERIENCE 360°</span>
+                        </a>
                        </li>
                    </ul>
                </div>
@@ -324,10 +327,10 @@
                     <!-- LAYER Text -->
                     <div class="tp-caption counter-txt mt-4"
                          data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                         data-y="['top','middle','middle','middle']" data-voffset="['420','75','30','15']"
+                         data-y="['top','middle','middle','middle']" data-voffset="['640','290','240','360']"
                          data-whitespace="normal"
                          data-width="['780','630','550','440']"
-                         data-fontsize="['20','20','20','20','20']"
+                         data-fontsize="['20','20','20','20']"
                          data-lineheight="['30','25','22','22']"
                          data-type="text"
                          data-responsive_offset="on"
@@ -343,39 +346,11 @@
                             El brazo que te apoya en la operación diaria de tu empresa o negocio con soluciones integrales a la medida de tus necesidades.
                         </div> -->
 
-                        <div style="font-size:19px; position: relative; top: 230px; line-height: normal;">
+                        <div style="position: relative; line-height: normal;">
                             El brazo que te apoya en la operación diaria de tu empresa o negocio con soluciones integrales a la medida de tus necesidades
                         </div>
 
                     </div>
-
-                     <!--LAYER Button-->
-                    <!-- <div class="tp-caption color-white"
-                     data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                     data-y="['top','middle','middle','middle']" data-voffset="['520','160','150','220']"
-                     data-whitespace="normal"
-                     data-width="['100%','100%','100%','85%']"
-                     data-fontsize="['20','15','15','15']"
-                     data-lineheight="['30','25','22','22']"
-                     data-type="text"
-                     data-responsive_offset="on"
-                     data-frames='[{"delay":100,"speed":1480,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":350,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                     data-textAlign="['center','center','center','center']"
-                     data-paddingtop="[0,0,0,0]"
-                     data-paddingright="[0,0,0,0]"
-                     data-paddingbottom="[0,0,0,0]"
-                     data-paddingleft="[0,0,0,0]"
-
-                     style="z-index: 10; min-width: 650px; max-width: 500px; white-space: nowrap; font-weight: 300; letter-spacing: 1px;font-family: 'Roboto', sans-serif;">
-                     <div>
-                        <a href="contact-center.html" class="btn-setting btn-hvr-up btn-hvr-white link mb-1">Contact center</a>
-                        <a href="javascript:void(0)" class="btn-setting btn-hvr-up btn-hvr-white link mb-1">Cobranza</a>
-                        <a href="javascript:void(0)" class="btn-setting btn-hvr-up btn-hvr-white link mb-1">Logística</a>
-                        <a href="javascript:void(0)" class="btn-setting btn-hvr-up btn-hvr-white link mb-1">Servicios en campo</a>
-                    </div>
-                </div>-->
-
-
 
                 </li>
             </ul>
@@ -1023,10 +998,9 @@ Clients end 1 -->
 <footer id="site-footer" class="mx-3 bgprimary padding_top ui-block-06 footer mt-4">
     <div class="text-left mx-5">
         <div class="row align-items-baseline gap-4 gap-xl-0">
-            <div class="col-lg-3 col-md-12 col-sm-12">
+            <div class="col-lg-8 col-md-12 col-sm-12">
                 <div class="footer_panel padding_bottom_half bottom20 d-flex flex-column align-items-center align-items-md-start">
-                    <a href="index.html" class="bottom25"><img class="footer_logo" src="octopus/img/footer/fot-servintegra.svg" alt="Octopus"></a>
-                    <div class="mt-4 pb-4 pb-xl-0 text-center text-md-start">
+                    <div class="pb-4 pb-xl-0 text-center text-md-start">
                         <p style="font-size: 14px;line-height: 0.4;">ESCRÍBENOS A</p>
                         <a class="d-block text-white" href="mailto:contacto@octopusmx.com?subject=Deseo%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20Octopus&body=Hola%2C%20deseo%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20Octopus%0ADejo%20mis%20datos%20para%20que%20me%20contacten%0A%0ANombre%3A%0ATel%C3%A9fono%20de%20contacto%3A%0AServicios%20de%20inter%C3%A9s%3A%0AEmpresa%3A%20%0A%0A" target="_blank">contacto@octopusmx.com</a> 
                         <ul class="icon-redes mt-3">
@@ -1040,40 +1014,29 @@ Clients end 1 -->
                                 <a href="https://www.instagram.com/octopus_soluciones_integrales/" target="_blank"><img src="octopus/img/footer/ico-insta.svg" alt="Instagram"></a>
                             </li>
                             <li>
-                                <a href="#contact" data-bs-toggle="modal" data-bs-target="#formModalRH"><p class="UneteUs">Trabaja con nosotros</p></a>
+                                <a href="#contact" data-bs-toggle="modal" data-bs-target="#formModalRH"><p class="UneteUs">Envíanos tu CV</p></a>
                             </li>
                         </ul>                    
                     </div>
+                    <ul class="d-flex gap-3 col-12 py-4 px-0 m-0">
+                        <li><a class="d-flex align-items-center text-white" href="contact-center.html"><span class="material-symbols-outlined i-ccenter">arrow_right</span>Contact center omnicanal</a></li>
+                        <li><a class="d-flex align-items-center text-white" href="customer-experience.html"><span class="material-symbols-outlined i-experience">arrow_right</span>Customer experience 360°</a></li>
+                        <li><a class="d-flex align-items-center text-white" href="logistica.html"><span class="material-symbols-outlined i-logistica">arrow_right</span>Logística y última milla</a></li>
+                        <li><a class="d-flex align-items-center text-white" href="servicios-campo.html"><span class="material-symbols-outlined i-fields">arrow_right</span>Servicios en campo</a></li>
+                        <li><a class="d-flex align-items-center text-white" href="cobranza.html"><span class="material-symbols-outlined i-cobranza">arrow_right</span>Cobranza</a></li>
+
+                    </ul>
                 </div>
             </div>
-            <div class="col-lg-9 col-md-12 col-sm-12 d-flex flex-wrap flex-md-nowrap gap-4 justify-content-center justify-content-md-end mb-4 mb-md-0">
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-wrap flex-md-nowrap gap-4 justify-content-center justify-content-md-end mb-4 mb-md-0">
                 <div class="foot-logs">
                     <div class="footer_panel padding_bottom_half bottom20">
-
-                        <a href="contact-center.html">
-                            <img src="octopus/img/footer/fot-contact.svg" alt="Contact center">
+                        <a href="index.html">
+                            <img src="octopus/img/main_logos_octopus/Octopus_soluciones_integrales.svg" alt="Octopus - soluciones integrales">
                         </a>
                     </div>
-                </div>
-                <div class="foot-logs">
-                    <div class="footer_panel padding_bottom_half bottom20">
-                        <a href="cobranza.html">
-                            <img src="octopus/img/footer/fot-cobranza.svg" alt="Cobranza">
-                        </a>
-                    </div>
-                </div>
-                <div class="foot-logs">
-                    <div class="footer_panel padding_bottom_half bottom20">
-                        <a href="logistica.html">
-                            <img src="octopus/img/footer/fot-logist.svg" alt="Logistica">
-                        </a>
-                    </div>
-                </div>
-                <div class="foot-logs">
-                    <div class="footer_panel padding_bottom_half bottom20">
-                        <a href="servicios-campo.html">
-                            <img src="octopus/img/footer/fot-campo.svg" alt="Servicios en campo">
-                        </a>
+                    <div class="footer-band d-flex justify-content-end pr-5">
+                        <img class="m-3" src="octopus/img/main_logos_octopus/grupo_mvs.svg" alt="mvs-logo">
                     </div>
                 </div>
             </div>
@@ -1082,10 +1045,6 @@ Clients end 1 -->
     </div>
 </footer>
 <!-- End Footer -->
-<!--Start Cintillo footer-->
-<div class="footer-band d-flex justify-content-end pr-5">
-<img class="m-3" src="octopus/img/main_logos_octopus/grupo_mvs.svg" alt="mvs-logo">
-</div>
 <!-- Start Legal -->
 <div class="col-12 d-flex justify-content-center align-items-center legal">
     <div class="mx-3 my-2">

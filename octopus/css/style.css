@@ -133,11 +133,8 @@ h6 {
 }
 
 h1 {
-    font-size: 72px;
-}
-
-.h1 {
-    font-size: 4rem;
+    font-size: min(max(4vw, 2em), 3.93em);
+    font-weight: 800;
 }
 
 h2 {
@@ -4826,8 +4823,8 @@ label {
 }
 
 .icon-redes li .UneteUs1:hover {
-    background-color: #0089C6; /* Color de fondo al pasar el mouse */
-    border: 1px solid #fff;
+    background-color: #62A51C; /* Color de fondo al pasar el mouse */
+    border: 1px solid #62A51C;
 }
 
 ul.icon-redes.mt-3 {
@@ -5091,11 +5088,6 @@ ul.icon-redes.mt-3 {
 
 @media screen and (max-width: 1199px) {
 
-    h1,
-    .h1 {
-        font-size: 3.56rem;
-    }
-
     h2 {
         font-size: 2.45rem;
     }
@@ -5210,11 +5202,6 @@ ul.icon-redes.mt-3 {
 
     .check-btnMobile {
         padding: 1em;
-    }
-
-    h1,
-    .h1 {
-        font-size: 2.95rem;
     }
 
     h2 {
@@ -5356,11 +5343,6 @@ ul.icon-redes.mt-3 {
         text-align: center;
     }
 
-    h1,
-    .h1 {
-        font-size: 2.65rem;
-    }
-
     h2,
     .main-title.style-two h2,
     .cbp-l-project-title {
@@ -5483,8 +5465,8 @@ ul.icon-redes.mt-3 {
     }
 
     .btn-setting {
-        font-size: 13px;
-        padding: 8px 28px;
+        font-size: 13px !important;
+        padding: 4px 10px !important;
     }
 
     .w-xs-50 {
@@ -5640,6 +5622,9 @@ ul.icon-redes.mt-3 {
         height:80vh !important;
     }
 
+    .img-h1 {
+        width: 15%;
+    }
 }
 
 @media screen and (max-width: 575px) {

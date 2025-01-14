@@ -1584,7 +1584,99 @@ a.editor-create {
 
 /*End block 12 sectores*/
 
+.btn-services {
+  display: flex;
+  justify-content: center;
+  padding: 0.5em;
+  border-radius: 50px;
+  background: #1E0F42;
+  width: 180px;
+}
+
+.btn-services span {
+  color: white;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.btn-contact-center {
+  border: 2px solid #E64A00;
+}
+.btn-cobranza {
+  border: 2px solid #62A51C;
+}
+.btn-logistica {
+  border: 2px solid #784497;
+}
+.btn-serv-campo {
+  border: 2px solid #DA0011;
+}
+.btn-experience360 {
+  border: 2px solid #E6BF1A;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .btn-services {
+    width: 140px;
+  }
+}
+
+/* Customer Experience */
+
+.header-experience {
+  background-image: url(../img/customer-experience/back-cx360.png);
+  background-size: auto;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center;
+  height: 550px;
+}
+
+.team-customerex {
+  background: #13022D;
+}
+
+.box-experience-services {
+  background-color: transparent;
+  width: 410px;
+  height: 260px;
+  perspective: 1000px;
+}
+
+.i-ccenter {
+  color: #E64A1B;
+}
+
+.i-cobranza {
+  color: #62A51D;
+}
+
+.i-logistica {
+  color: #8B3785;
+}
+
+.i-fields {
+  color: #DA0A16;
+}
+
+.i-experience {
+  color: #E6BF1A;
+}
+
 /**/
+
+@media screen and (min-width: 1800px) {
+  .header-experience {
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-position-x: center;
+    height: 550px;
+  }
+}
 
 @media screen and (max-width: 1399px) {
   .item-li {
@@ -1733,7 +1825,7 @@ a.editor-create {
   }
 
   .btn-setting {
-    padding: 4px 10px !important;
+    font-size: 11px !important;
   }
 }
 
@@ -1748,6 +1840,10 @@ a.editor-create {
     width: 276px !important;
     height: 322px;
     top: 100%;
+  }
+  .btn-setting {
+    font-size: 9px !important;
+    padding: 0px 6px !important;
   }
 }
 
@@ -1804,7 +1900,7 @@ a.editor-create {
   }
 
   .flip-box .flip-box-back p {
-    font-size: 13px !important;
+    font-size: 13px;
   }
 
   .text-titleSect {
@@ -1848,8 +1944,12 @@ a.editor-create {
 
   }
 
-
-
+  .box-experience-services {
+    background-color: transparent;
+    width: 290px !important;
+    height: 190px !important;
+    perspective: 1000px;
+  }
 }
 
 
@@ -2186,6 +2286,15 @@ a.editor-create {
   .parallax-text {
     text-align: center !important;
     justify-content: center;
+  }
+  .box-experience-services {
+    background-color: transparent;
+    width: 310px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  .text-360 {
+    font-size: 11px !important;
   }
 }
 
