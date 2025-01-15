@@ -4815,7 +4815,7 @@ label {
 .icon-redes li .UneteUs1 {
     padding: 5px 10px;
     border-radius: 20px;
-    background-color: #46395F; /* Color de fondo inicial */
+    background-color: #0089C6; /* Color de fondo inicial */
     color: white; /* Color del texto */
     text-decoration: none; /* Sin subrayado */
     transition: background-color 0.3s ease; /* Solo transición para el color de fondo */
@@ -4824,7 +4824,6 @@ label {
 
 .icon-redes li .UneteUs1:hover {
     background-color: #62A51C; /* Color de fondo al pasar el mouse */
-    border: 1px solid #62A51C;
 }
 
 ul.icon-redes.mt-3 {
