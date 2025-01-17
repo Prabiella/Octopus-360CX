@@ -4812,7 +4812,7 @@ label {
     font-size: 0.8rem;
 }
 
-.icon-redes li .UneteUs1 {
+.UneteUs1 {
     padding: 5px 10px;
     border-radius: 20px;
     background-color: #0089C6; /* Color de fondo inicial */
@@ -4822,7 +4822,7 @@ label {
     font-size: 0.9rem;
 }
 
-.icon-redes li .UneteUs1:hover {
+.UneteUs1:hover {
     background-color: #62A51C; /* Color de fondo al pasar el mouse */
 }
 
@@ -5597,10 +5597,6 @@ ul.icon-redes.mt-3 {
 
     .heading {
         font-size: 25px;
-    }
-
-    .footer {
-        margin: 0 !important;
     }
 
     .mobile-contact {

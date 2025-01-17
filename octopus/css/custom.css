@@ -1586,38 +1586,111 @@ a.editor-create {
 
 .btn-services {
   display: flex;
-  justify-content: center;
-  padding: 0.5em;
-  border-radius: 50px;
-  background: #1E0F42;
-  width: 180px;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(180deg, rgba(68,39,126,1) 0%, rgba(58,33,100,1) 100%);
+  padding: 0.5em 1em;
+  border-radius: 12px;
+  width: 160px;
+  height: 173px;
+}
+
+.btn-services img {
+  width: 60%;
+}
+
+.title-index {
+  margin: 0;
+  padding: 0;
+  font-size: min(max(4vw, 1.2em), 1.3rem);
+  color: #FFFFFF;
+  font-weight: 400;
+  line-height: normal;
+  margin: 1.5em 0 !important;
+}
+
+.octo-logo {
+  width: 100%;
+  padding-bottom: 1em !important;
+}
+
+@media screen and (max-width:768px) {
+  .btn-services {
+    width: 110px !important;
+    height: 106px !important;
+  }
+  .btn-services:hover {
+    height: 126px !important;
+  }
+  .btn-services img {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .btn-services {
+    width: 100px !important;
+  }
 }
 
 .btn-services span {
   color: white;
+  font-size: min(max(1vw, 0.7em), 1em);
   font-weight: 400;
-  line-height: 1;
+  line-height: 1.1;
+  padding: 0.7em 0;
+  text-align: start;
 }
 
-.btn-contact-center {
-  border: 2px solid #E64A00;
-}
-.btn-cobranza {
-  border: 2px solid #62A51C;
-}
-.btn-logistica {
-  border: 2px solid #784497;
-}
-.btn-serv-campo {
-  border: 2px solid #DA0011;
-}
-.btn-experience360 {
-  border: 2px solid #E6BF1A;
+.btn-services div {
+  display: flex;
+  flex-direction: column;
 }
 
-@media screen and (max-width: 1024px) {
+.btn-mas {
+  display: none;
+  font-size: min(max(1vw, 0.7em), 1em);
+}
+
+.btn-mas img {
+  width: 25%;
+}
+
+.btn-services:hover .btn-mas {
+  display: block;
+}
+
+.btn-services:hover {
+  height: 190px;
+}
+
+.btn-contact-center:hover {
+  background: #E64A00;
+}
+
+.btn-cobranza:hover {
+  background: #62A51C;
+}
+
+.btn-logistica:hover {
+  background: #784497;
+}
+
+.btn-serv-campo:hover {
+  background: #DA0011;
+}
+
+.btn-experience360:hover {
+  background: #E6BF1A;
+}
+
+@media screen and (max-width: 1199px) {
   .btn-services {
-    width: 140px;
+    width: 130px;
+    height: 126px;  
+  }
+  .btn-services:hover {
+    height: 156px;  
   }
 }
 
