@@ -67,6 +67,7 @@ body {
 .hover-orange::after {
   background: var(--color-orange) !important;
 }
+
 .hover-purple:hover {
   color: var(--color-purple-logistic) !important;
 }
@@ -74,6 +75,7 @@ body {
 .hover-purple::after {
   background: var(--color-purple-logistic) !important;
 }
+
 .hover-red:hover {
   color: var(--color-red-field) !important;
 }
@@ -81,6 +83,7 @@ body {
 .hover-red::after {
   background: var(--color-red-field) !important;
 }
+
 .btn-setting {
   color: #fff;
   margin: 0 0.5em;
@@ -1622,12 +1625,15 @@ a.editor-create {
     width: 110px !important;
     height: 106px !important;
   }
+
   .btn-services:hover {
     height: 126px !important;
   }
+
   .btn-services img {
     width: 40%;
   }
+
   .btn-services {
     width: 97px !important;
   }
@@ -1638,7 +1644,7 @@ a.editor-create {
     font-size: 0.8em;
     font-weight: 600;
     padding: 5px 15px;
-}
+  }
 }
 
 .btn-services span {
@@ -1698,10 +1704,11 @@ a.editor-create {
 @media screen and (max-width: 1199px) {
   .btn-services {
     width: 130px;
-    height: 126px;  
+    height: 126px;
   }
+
   .btn-services:hover {
-    height: 156px;  
+    height: 156px;
   }
 }
 
@@ -1797,7 +1804,7 @@ a.editor-create {
   .head-100vh {
     height: fit-content;
   }
-  
+
 
   /* Font adjustment for small screens */
   .ui-block-12.portfolio .font-10 {
@@ -1933,6 +1940,7 @@ a.editor-create {
     height: 322px;
     top: 100%;
   }
+
   .btn-setting {
     font-size: 9px !important;
     padding: 0px 6px !important;
@@ -2180,7 +2188,7 @@ a.editor-create {
 
 
 @media screen and (max-width:360px) {
- 
+
   .submarcas ul li img {
     width: 100px !important;
     padding: 0 5px !important;
@@ -2379,12 +2387,14 @@ a.editor-create {
     text-align: center !important;
     justify-content: center;
   }
+
   .box-experience-services {
     background-color: transparent;
     width: 310px;
     height: 200px;
     perspective: 1000px;
   }
+
   .text-360 {
     font-size: 11px !important;
   }
@@ -2490,4 +2500,15 @@ a.editor-create {
   }
 }
 
+/*VIDEO*/
 
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.4;
+}
