@@ -4135,14 +4135,25 @@ ul.rounded li::before {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .flip-box {
     background-color: transparent;
     width: 260px;
-    height: 420px;
+    height: 500px;
     perspective: 1000px;
+}
+
+.flip-box-front span {
+    font-size: 1.5em;
+    font-weight: 700 !important;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 0.7em;
+}
+
+.flip-box-front img {
+    padding-bottom: 0.5em;
 }
 
 .flip-contact {
@@ -4176,22 +4187,27 @@ ul.rounded li::before {
 }
 
 .contact-center {
-    background-image: url(../img/services/contact-center.jpg);
+    background-image: url(../img/services/serv-imgs/octo01.png);
     background-size: cover;
 }
 
 .cobranza {
-    background-image: url(../img/services/cobranza.jpg);
+    background-image: url(../img/services/serv-imgs/octo02.png);
     background-size: cover;
 }
 
 .logistica {
-    background-image: url(../img/services/logistica.jpg);
+    background-image: url(../img/services/serv-imgs/octo03.png);
     background-size: cover;
 }
 
 .campo {
-    background-image: url(../img/services/servicios_campo.jpg);
+    background-image: url(../img/services/serv-imgs/octo04.png);
+    background-size: cover;
+}
+
+.customer-exp {
+    background-image: url(../img/services/serv-imgs/octo05.png);
     background-size: cover;
 }
 
@@ -4749,20 +4765,15 @@ label {
 /*Whatsapp*/
 .widgetWtApp {
     position: fixed;
-    bottom: 70px;
-    right: 1em;
+    bottom: 0;
+    right: -11px;
     z-index: 1;
-}
-
-.widgetWtApp img {
-    width: 70px;
-    padding: 0.5em;
+    width: 225px;
 }
 
 .widgetWtApp span {
     background: transparent linear-gradient(180deg, #FFFFFF 0%, #C9C9C9 100%) 0% 0% no-repeat padding-box;
     border-radius: 9px 0px 0px 9px;
-    padding: 1em;
     color: #26054C;
     font-weight: 600;
 }
