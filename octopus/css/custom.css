@@ -2238,6 +2238,24 @@ a.editor-create {
 }
 
 
+@media only screen and (max-width:1200px) {
+
+  .title-index {
+    margin: 0.2em 0 !important;
+  }
+
+  .btn-services {
+    width: 120px;
+    height: 130px;
+  }
+
+}
+
+
+
+
+
+
 @media only screen and (max-width:991px) {
 
   .telecom-hov,
