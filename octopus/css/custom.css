@@ -1640,10 +1640,10 @@ a.editor-create {
 }
 
 @media screen and (max-width:1230px) and (min-width:1200px) {
-  nav .btn-setting {
-    font-size: 0.8em;
+  .btn-setting {
+    font-size: 0.8em !important;
     font-weight: 600;
-    padding: 5px 15px;
+    padding: 5px 10px !important;
   }
 }
 
@@ -1710,6 +1710,10 @@ a.editor-create {
   .btn-services:hover {
     height: 156px;
   }
+
+  .cont-margin {
+    margin: 0 0;
+}
 }
 
 /* Customer Experience */
