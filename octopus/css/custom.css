@@ -2446,16 +2446,16 @@ a.editor-create {
     height: 420px;
   }
 
-  .flip-box {
+  .box-services-main {
     width: 190px;
     height: 360px;
   }
 
-  .flip-box-front img {
+  .box-services-main img {
     width: 25%;
   }
 
-  .flip-box-front span {
+  .box-services-main span {
     font-size: 1em;
     line-height: 1.2;
   }
