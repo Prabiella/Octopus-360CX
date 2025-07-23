@@ -5013,8 +5013,11 @@ ul.icon-redes.mt-3 {
 .logo_mvs img{
     width: 300px!important;
   
-  }
+}
 
+.logo-client {
+    width: 305px;
+}
 
 @media (min-width: 1600px) {
     .ui-block-08.team-sec .container {
