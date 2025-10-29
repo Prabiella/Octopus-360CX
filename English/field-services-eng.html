@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -11,16 +11,15 @@
     <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- description -->
+    <meta name="description" content="Octopus Fuerza en Campo: Proveemos la infraestructura y consolidamos tus actividades en campo para una operación más eficiente y flexible que impulse el éxito de tu negocio.">
+    <meta name="keywords" content="Fuerza en Campo, Infraestructura Operativa, Consolidación de Actividades, Optimización en Campo, Operación Eficiente, Apoyo Logístico, Soluciones Empresariales">
+    <meta property="og:title" content="Octopus Fuerza en Campo - Infraestructura y Eficiencia para tu Negocio">
+    <meta property="og:description" content="La fuerza en campo que necesitas. Adecuamos nuestra infraestructura y consolidamos tus actividades para maximizar la eficiencia de tu negocio.">
+    <meta property="og:image" content="/octopus/img/main_logos_/octopus/octopus-fuerza-en-campo.svg">
+    <meta property="og:url" content="https://octopusmx.com/fuerza-en-campo">
+    <meta property="og:type" content="website">
 
-  <!-- description -->
-  <meta name="description" content="Octopus Contact Center: Más que un proveedor, somos el brazo que apoya a tu empresa en la atención, servicio y cuidado de tus clientes, mejorando la relación y satisfacción del cliente."> 
-  <meta name="keywords" content="Contact Center, Atención al Cliente, Soporte Empresarial, Gestión de Clientes, Servicio al Cliente, Telemarketing, Soluciones de Atención">
-   <meta property="og:title" content="Octopus Contact Center - Apoyo Integral para la Atención y Servicio al Cliente">
-   <meta property="og:description" content="Más que un proveedor, somos el brazo que apoya a tu empresa en la atención y cuidado de tus clientes, ayudándote a mejorar la satisfacción y fidelización.">
-   <meta property="og:image" content="/octopus/img/main_logos_octopus/octopus-contact-center.svg">
-   <meta property="og:url" content="https://octopusmx.com/contact-center">
-   <meta property="og:type" content="website">
-   
     <!-- Page Title -->
     <title>Octopus Integral Solutions || Call Center, Logistics & Technical Support Services ||</title>
     <!-- Favicon -->
@@ -55,9 +54,14 @@
     <!--Rotating img-->
     <link rel="stylesheet" href="/octopus/css/morphist.css">
 
+    <!--Leafl-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+
 </head>
 <body data-spy="scroll" data-target=".navbar-nav" data-offset="90">
-<!-- Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56W74ZZ"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
@@ -73,29 +77,25 @@
 <!-- Main Section start -->
 <section id="home" class="p-0 cursor-light">
     <!--Main Slider-->
-
-
     <header class="cursor-light">
         <nav class="navbar navbar-top-default navbar-expand-lg nav-three-circles no-animation cont-margin">
             <div class="container-fluid px-3 px-md-5">
                 <div class="d-flex logoNav">
                 <a class="logo ml-lg-1" href="javascript:void(0)">
-                    <img src="/octopus/img/main_logos_octopus/octopus-contact-center.svg" class="logo-default" alt="logo" title="Logo">
-
+                    <img src="/octopus/img/main_logos_octopus/octopus-servicios-en-campo.svg" class="logo-default" alt="logo" title="Logo">
                 </a>
                 <div class="collapse navbar-collapse d-none d-lg-block">
-                    <ul class="nav navbar-nav mx-1 mt-2 ">
+                    <ul class="nav navbar-nav mx-4">
                         <li class="nav-item"> <a href="#about" class="scroll nav-link link">About us</a></li>
-                        <li class="nav-item dropdown"> 
-                            <a href="#services" class="scroll nav-link link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services                           
+                        <li class="nav-item dropdown">
+                            <a href="#services" class="scroll nav-link link" role="button">Services
                             </a>
-                           
                         </li>
-                        <li class="nav-item"> <a href="sectores.html" class="nav-link link">Sectors</a></li>
+                        <li class="nav-item"> <a href="sectors-eng.html" class="nav-link link">Sectors</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="d-flex btn-mail align-items-center UneteUslayout">
+            <div class="d-flex btn-mail align-items-center">
                 <div>
                     <a href="#contact" class="scroll nav-btn-number btn-setting btn-hvr-up whats-contact mr-lg-3"  data-bs-toggle="modal" data-bs-target="#formModal">contacto@octopusmx.com</a>
                 </div>
@@ -118,12 +118,11 @@
 
                 <div class="px-3 eng-icon btn-mail">
                     <span>
-                        <a href="/contact-center.html">
+                        <a href="/servicios-campo.html">
                             <img src="/octopus/img/icons/flag-mxn.svg" alt="">
                         </a>
                     </span>
                 </div> 
-
             </div>
                 <!-- side menu open button -->
                 <div class="menu-btn">
@@ -140,98 +139,82 @@
         </nav>
         <!--Side Menu-->
     </header>
-    <div class="header-contact">       
+    <div class="header-contact">
         <header>
             <div class="header row no-gutters align-items-center justify-content-between p-3">
-                <div class="col-4  text-start d-flex align-items-center ms-3">
-                  <span class="material-symbols-outlined">
-                      arrow_back_ios
-                      </span> 
-                    <a href="index-eng.html" class="btn-setting link btn-hvr-up home-contact mr-lg-4 d-lg-inline-block ms-0">GO TO HOME</a>
+              <div class="col-4 text-start d-flex align-items-center ms-3">
+                <span class="material-symbols-outlined">
+                    arrow_back_ios
+                    </span>
+                  <a href="index-eng.html" class="btn-setting link btn-hvr-up home-contact mr-lg-4 d-lg-inline-block ms-0">GO TO HOME</a>
+              </div>
+              <div class="col-7 d-flex justify-content-end px-3 align-items-center">
+                <div class="d-flex">
+                    <a href="#contact" class="scroll btn-setting link btn-hvr-up  whats-contact mr-lg-4 d-none d-lg-inline-block"  data-bs-toggle="modal" data-bs-target="#formModal"><span></span>contacto@octopusmx.com</a>
                 </div>
-                <div class="col-7  d-flex justify-content-end px-3 align-items-center">
-                    <div class="d-flex">
-                        <a href="#contact" class="scroll btn-setting link btn-hvr-up  whats-contact mr-lg-4 d-none d-lg-inline-block"  data-bs-toggle="modal" data-bs-target="#formModal"><span></span>contacto@octopusmx.com</a>
-                    </div>
-                    <ul class="icon-redes mt-3" style="position: relative; top: -10px;">
-
-                        <li>
-                            <a href="#contact" data-bs-toggle="modal" data-bs-target="#formModalRH"><p class="UneteUs1">Send us your CV</p></a>
-                        </li>
-                            
-                        <li>
-                            <a href="https://www.linkedin.com/company/octopus-soluciones-integrales" target="_blank"><img src="/octopus/img/footer/ico-linkedin.svg" alt="Linkedin"></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/Octopusb2b/" target="_blank"><img src="/octopus/img/footer/ico-facebook.svg" alt="Facebook"></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/octopus_soluciones_integrales/" target="_blank"><img src="/octopus/img/footer/ico-insta.svg" alt="Instagram"></a>
-                        </li>
-                    
-                    </ul>
-
-                    <div class="px-3 eng-icon btn-mail">
-                        <span>
-                            <a href="/contact-center.html">
-                                <img src="/octopus/img/icons/flag-mxn.svg" alt="">
-                            </a>
-                        </span>
-                    </div> 
-
-                </div>
-                
-                
-
+                <ul class="icon-redes mt-3" style="position: relative; top: -10px;">
+                        
+                    <li>
+                        <a href="#contact" data-bs-toggle="modal" data-bs-target="#formModalRH"><p class="UneteUs1">Send us your CV</p></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/company/octopus-soluciones-integrales" target="_blank"><img src="/octopus/img/footer/ico-linkedin.svg" alt="Linkedin"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/Octopusb2b/" target="_blank"><img src="/octopus/img/footer/ico-facebook.svg" alt="Facebook"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/octopus_soluciones_integrales/" target="_blank"><img src="/octopus/img/footer/ico-insta.svg" alt="Instagram"></a>
+                    </li>
+                   
+                </ul>
 
               </div>
-          
+
+            </div>
+
             <div class="d-flex flex-column justify-content-center align-items-center" style="height: 350px;padding: 0 2em;">
-                <h1>CONTACT CENTER
-                    <img class="img-h1" src="/octopus/img/icons/contact-center.svg" alt="contact center">
+                <h1>FIELD SERVICES
+                    <img class="img-h1" src="/octopus/img/icons/serv-campo.svg" alt="field services">
                 </h1>
                 <div class="col-lg-7 col-md-11 col-sm-12 text-center d-flex justify-content-center" style="line-height: 1;">
-                    <p class="text-titleSect">More than just a supplier for your company, we are the arm that supports you in customer service and care</p>
+                    <p class="text-titleSect">The field force your business needs. We adapt our infrastructure and consolidate your activities to enhance efficiency.</p>
                 </div>
-                
-              </div>
+            </div>
+            
 
-          </header>            
+          </header>
     </div>
+
     <div class="side-menu center">
-        <div class="quarter-circle-orange">
+        <div class="quarter-circle-red">
             <div class="menu_bars2 active" id="btn_sideNavClose">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
         </div>
-
-
+        <div class="col-md-12">
+            <a href="javascript:void(0)" class="d-flex justify-content-center align-items-center text-white">
+                <h1>FIELD SERVICES
+                    <img class="img-h1" src="/octopus/img/icons/serv-campo.svg" alt="Field services">
+                </h1>
+            </a>
+        </div>
         
-        <div class="inner-wrapper justify-content-center">
-            <div class="col-md-12">
-                <a href="javascript:void(0)" class="d-flex justify-content-center align-items-center text-white">
-                    <h1>CONTACT CENTER
-                        <img class="img-h1" src="/octopus/img/icons/contact-center.svg" alt="contact center">
-                    </h1>
-                </a>
-            </div>
-           
+
            <nav class="side-nav m-0">
                 <ul class="navbar-nav flex-lg-row">
                     <li class="nav-item"> <a href="#about" class="scroll nav-link link hover-orange">ABOUT US</a></li>
-                    <li class="nav-item"> <a href="#services" class="scroll nav-link link hover-orange">SERVICIOS</a></a></li>
-                    <li class="nav-item"> <a href="sectores.html" class="nav-link link hover-orange">SECTORES</a></li>
+                    <li class="nav-item"> <a href="#services" class="scroll nav-link link hover-orange">SERVICES</a></a></li>
+                    <li class="nav-item"> <a href="sectors-eng.html" class="nav-link link hover-orange">SECTORS</a></li>
                 </ul>
-             
                 <div class="btn-mail2 mt-4">
                     <div>
                         <a href="#contact" class="scroll nav-btn-number btn-number-index btn-hvr-up btn-hvr-whatsapp" data-bs-toggle="modal" data-bs-target="#formModal">contacto@octopusmx.com</a>
                     </div>
                 </div>
-
-                <ul class="mt-3 MenuRs">
+                <ul class="MenuRs my-3">
                     <li>
                         <a href="https://www.linkedin.com/company/octopus-soluciones-integrales" target="_blank"><img src="/octopus/img/footer/ico-linkedin.svg" alt="Linkedin"></a>
                     </li>
@@ -245,22 +228,17 @@
                         <a href="#contact" data-bs-toggle="modal" data-bs-target="#formModalRH"><p class="UneteUs1 mx-2">Send us your CV</p></a>
                     </li>
                 </ul>  
-
-            
-                 
+                <div class="px-3 eng-icon btn-mail">
+                    <span>
+                        <a href="/servicios-campo.html">
+                            <img src="/octopus/img/icons/flag-mxn.svg" alt="">
+                        </a>
+                    </span>
+                </div> 
             </nav>
 
-
-
+         
         </div>
-
-
-        
-
-
-
-
-
     </div>
     <a id="close_side_menu" href="javascript:void(0);"></a>
     <!--Side Menu-->
@@ -269,56 +247,100 @@
 <!-- Main Section end -->
 
 <!--About start-->
-<section class="team-sec position-relative ui-block-08 py-0"  id="about">
+<section class="team-sec team-fields position-relative ui-block-08 py-0" id="about">
     <div class="left-overlay"></div>
     <div class="padd-about">
         <div class="row inner-team-sec padding-top padding-bottom mx-0 d-flex align-items-center">
             <div class="col-12 col-lg-5 text-left">
                 <div class="team-detail wow fadeInLeft">
-                    <h4 class="title-txt mb-3">NATIONAL OMNICHANNEL CONTACT CENTER</h4>
+                    <h4 class="title-txt mb-3">FIELD SERVICES WITH <br> NATIONWIDE COVERAGE</h4>
                     <div>
                         <p class="mb-3 body-txt">
-                            From the Octopus operations center located in Morelia, Michoacán, we operate nationwide with state-of-the-art infrastructure that allows us to provide excellent services and includes:
+                            We have a network of highly trained personnel to handle last-mile multitasking operations:
                         </p>
-                        <ul class="list-about">
-                            <li>- An area of 30,000 square meters</li>
-                            <li>- 1,112 equipped workstations</li>
-                            <li>- Meeting and training rooms</li>
-                            <li>- First-class furniture and technology</li>
-                            <li>- Parking for 250 vehicles</li>
+                        <ul class="list-about-logis">
+                            <li>Operations centers throughout the country.</li>
+                            <li>Technicians specialized in technical service.</li>
+                            <li>Collections agents.</li>
+                            <li>Administrative structure responsible for the back office required for each client.</li>
+                            <li>Automated route planning and assignment through CRM.</li>
+                            <li>Real-time service delivery evidence. Smartphone-enabled.</li>
+                            <li>Traceability of each technician’s inventory.</li>
+                            <li>Customized and multitask work models.</li>
+                            <li>Multiskill headcount with experience and training.</li>
+                            <li>Online training platforms.</li>
+                            <li>Mobility via car, motorcycle, or public transportation.</li>
                         </ul>
                     </div>
+
                 </div>
             </div>
-            <div class="col-lg-6 pr-5 mb-5 mb-lg-0 wow fadeInLeft">
-                <!-- Button trigger modal -->
-                                  <a id="btnModal" data-toggle="modal" data-target="#myModal">
-                                    <img src="/octopus/img/back/still_video.png" class="about-img-small position-relative w-100 img-video" alt="video" style="border: 1px solid white;">
-                                  </a>
-                  <!-- Modal -->
-                                 <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                  <div class="modal-dialog modal-xl">
-                                    <button type="button" class="close close-modal" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                      </button>
-                                    <div class="modal-content">
-                                      <div class="modal-body">
-                                        <video id="myVideo" width="400" controls>
-                                            <source src="octopus/video/OCTOPUS-CNAT web_ESP.mp4" type="video/mp4">
-                                          </video>
-                                      </div>
-                                    </div>
-                                  </div>
+            <div class="col-12 col-lg-7 my-3 px-0" style="height: fit-content;">
+                <div class="team-area wow fadeInRight">
+                    <div class="row no-gutters team-carousel owl-carousel owl-theme m-0">
+                        <div class="item text-center">
+                            <div class="team-box">
+                                <div class="img-holder position-relative" style="border: 1px solid #FFE6DE; width: 95%;">
+                                    <img class="p-3" src="/octopus/img/field-services/slide/1-slide.png" alt="Field services operations slide 1">
+                                </div>
+                                <div class="team-info my-2 col-11">
+                                    <p class="team-designation text-left"></p>
                                 </div>
                             </div>
+                        </div>
+                        <div class="item text-center">
+                            <div class="team-box">
+                                <div class="img-holder position-relative" style="border: 1px solid #FFE6DE; width: 95%;">
+                                    <img class="p-3" src="/octopus/img/field-services/slide/2-slide.png" alt="Field services operations slide 2">
+                                </div>
+                                <div class="team-info my-2">
+                                    <p class="team-designation text-left"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item text-center">
+                            <div class="team-box">
+                                <div class="img-holder position-relative" style="border: 1px solid #FFE6DE;width: 95%;">
+                                    <img class="p-3" src="/octopus/img/field-services/slide/3-slide.png" alt="Field services operations slide 3">
+                                </div>
+                                <div class="team-info my-2">
+                                    <p class="team-designation text-left"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item text-center">
+                            <div class="team-box">
+                                <div class="img-holder position-relative" style="border: 1px solid #FFE6DE;width: 95%;">
+                                    <img class="p-3" src="/octopus/img/field-services/slide/4-slide.png" alt="Field services operations slide 4">
+                                </div>
+                                <div class="team-info my-2">
+                                    <p class="team-designation text-left"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="javascript:void(0);" class="team-nav team-prev" id="team-prev">
+                        <span class="material-symbols-outlined symbol-hover">
+                            chevron_left
+                        </span>
+                    </a>
+                    <a href="javascript:void(0);" class="team-nav team-next" id="team-next">
+                        <span class="material-symbols-outlined symbol-hover">
+                            chevron_right
+                        </span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
+
 <!--About end-->
 
 <!-- Start Services -->
-<section class="services-section-contact d-flex flex-column justify-content-center pt-3 pb-5 " id="services">
-        <!-- Start ui-block-12 -->
+<section class="services-section-contact d-flex flex-column justify-content-center pt-0 pb-5 " id="services">
+    <!-- Start ui-block-12 -->
 <section class="parallax-setting ui-block-12 quote parallax-about p-5 mb-5">
     <h2 class="d-none">heading</h2>
     <div class="container">
@@ -330,117 +352,113 @@
                             <span class="material-symbols-rounded" style=" transform: rotate(180deg);">
                                 format_quote
                             </span>
-                            We hire, train, supervise, and organize our teams by measuring the quality of each customer contact.</b></h2>
-                        <div class="text-right d-flex justify-content-end mb-2 parallax-text">
-                            <h5 class="col-lg-9 col-md-9 col-sm-12">Improving our processes is part of our DNA.</b>
-                                <span class="material-symbols-rounded">
-                                    format_quote
-                                </span>
-                            </h5>
-
-                        </div>
+                            We focus on understanding your needs and becoming experts in what truly matters to you, in order to deliver seamless operations and solutions with the right management tools.
+                            <span class="material-symbols-rounded">
+                                format_quote
+                            </span>
+                        </h2>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!-- End ui-block-12 --> 
+<!-- End ui-block-12 -->
 
     <div class="text-center">
         <h2 class="wow fadeInDown" data-wow-delay="300ms" style="font-size: 30px; font-weight: 700;">SERVICES
         </h2>
         <div class="col-12 d-flex justify-content-center my-5">
                 <hr width="10%">
-                <p class="col-lg-7 col-md-8 sub-service-contact">We specialize in taking care of your customers with services such as: <br> customer service, collections, telemarketing, technical support, and surveys.</b></p>
+                <p class="col-lg-7 col-md-8 sub-service-contact">Focus on your core business and leave your field services to us.
+                    We provide a variety of tailored solutions, improve your results, optimize resources, and ensure end-to-end management.<br>
+                    Below are some of our specialized services.</p>
                 <hr width="10%">
         </div>
        <div class=" d-flex justify-content-center mt-4 boxes">
-        <div class="d-flex flex-wrap flex-column flex-md-row gap-4 justify-content-center max-wi">
+        <div class="d-flex flex-wrap justify-content-center flex-column flex-md-row gap-4 max-wi">
         <!-- Box-1 -->
-          <div id="atencion-clientes" class="flip-boxes wow fadeInLeft" data-wow-delay="400ms">
-            <div class="w-100 ml-5">
-              <h5 class="text-left">Customer service</h5>
+          <div id="sistSat" class="flip-boxes wow fadeInLeft" data-wow-delay="400ms">
+            <div class="w-100">
+              <h5 class="text-left">Installation & Maintenance <br> of Satellite Systems
+            </h5>
             </div>
-           <div class="flip-box box-contact-center mt-0">
-              <div class="flip-box-inner box-contact-center mt-1">
+           <div class="flip-box box-all-services mt-0">
+              <div class="flip-box-inner box-all-services mt-1">
                  <div class="flip-box-front contactCenter-services p-3">
-                  <img src="/octopus/img/contact-center/services/atencion-al-cliente.jpg" alt="Customer service">
+                  <img src="/octopus/img/contact-center/services/instlacionsissat.jpg" alt="Installation and maintenance of satellite systems">
                  </div>
                  <div class="flip-box-back flip-contact contactCenter-services mt-0 align-items-start p-3">
-                  <img class="iconServices-contact" src="/octopus/img/contact-center/icons/atencion_clientes.svg" alt="Customer service">
-                  <p class="text-left p-0 mt-2 textBox-contact">Our customer service campaigns focus on the user. Every interaction is designed to listen, understand, and exceed our customers' expectations, offering personalized solutions that transform inquiries into positive and memorable experiences.</p>
+                  <img class="iconServices-contact" src="/octopus/img/services/icons/instalaccion_mantenimiento.svg" alt="Installation and maintenance of satellite systems">
+                  <p class="text-left p-0 mt-2">Extensive experience in installing and servicing satellite TV systems and maintaining radio frequencies. We have specialized technical teams dedicated to this sector.</p>
                  </div>
               </div>
            </div>
         </div>
         <!-- Box-2 -->
-        <div id="cobranza" class="flip-boxes wow fadeInLeft" data-wow-delay="400ms">
-          <div class="w-100 ml-5">
-            <h5 class="text-left">Collection</h5>
+        <div id="fibraOp" class="flip-boxes wow fadeInLeft" data-wow-delay="400ms">
+          <div class="w-100">
+            <h5 class="text-left">Installation & Maintenance of <br> Fiber Optic / Copper Infrastructure</h5>
           </div>
-         <div class="flip-box box-contact-center mt-0">
-            <div class="flip-box-inner box-contact-center mt-1">
+         <div class="flip-box box-all-services mt-0">
+            <div class="flip-box-inner box-all-services mt-1">
                <div class="flip-box-front contactCenter-services p-3">
-                <img src="/octopus/img/contact-center/services/cobranza.jpg" alt="Collection">
+                <img src="/octopus/img/contact-center/services/instalfibraoptic.jpg" alt="Installation and maintenance of fiber optic and copper infrastructure">
                </div>
                <div class="flip-box-back flip-contact contactCenter-services mt-0 align-items-start p-3">
-                <img src="/octopus/img/contact-center/icons/cobranza.svg" alt="Collection">
-                <p class="text-left p-0 mt-2 textBox-contact">We use persuasive negotiation strategies and advanced analysis tools that allow us to identify the best approach for each debtor. Our highly trained team achieves realistic payment agreements, significantly reducing delinquency rates and improving the company's cash flow. We design effective campaigns that maximize the recovery of past-due accounts.</p>
+                <img src="/octopus/img/services/icons/fibra_optica.svg" alt="Fiber optic and copper installation">
+                <p class="text-left p-0 mt-2">We have the expertise to perform maintenance on fiber optic and copper networks in the telecommunications sector. We understand that telephony and internet are essential services and we meet the response demands required.</p>
                </div>
             </div>
          </div>
       </div>
         <!-- Box-3 -->
-        <div id="telemarketing" class="flip-boxes wow fadeInLeft" data-wow-delay="400ms">
-          <div class="w-100 ml-5">
-            <h5 class="text-left">Telemarketing</h5>
+        <div id="servCampo" class="flip-boxes wow fadeInLeft" data-wow-delay="400ms">
+          <div class="w-100">
+            <h5 class="text-left">Recurring <br> Field Services</h5>
           </div>
-         <div class="flip-box box-contact-center mt-0">
-            <div class="flip-box-inner box-contact-center mt-1">
+         <div class="flip-box box-all-services mt-0">
+            <div class="flip-box-inner box-all-services mt-1">
                <div class="flip-box-front contactCenter-services p-3">
-                <img src="/octopus/img/contact-center/services/telemarketing.jpg" alt="Telemarketing">
+                <img src="/octopus/img/contact-center/services/serviioscampo.jpg" alt="Recurring field services">
                </div>
                <div class="flip-box-back flip-contact contactCenter-services mt-0 align-items-start p-3">
-                <img src="/octopus/img/contact-center/icons/telemarketing.svg" alt="Telemarketing">
-                <p class="text-left p-0 mt-2 textBox-contact">In telemarketing campaigns, we drive tangible results by effectively connecting high-value products with ideal customers. Through strategic and persuasive conversations, we transform prospects into satisfied buyers, maximizing conversion rates and generating significant sales growth.</p>
+                <img src="/octopus/img/services/icons/servicios_de_campo.svg" alt="Recurring field services">
+                <p class="text-left p-0 mt-2">We manage your installation and maintenance services on a recurring basis and schedule the periodic visits you require.</p>
                </div>
             </div>
          </div>
         </div>
         <!-- Box-4 -->
-        <div id="soporte" class="flip-boxes wow fadeInLeft" data-wow-delay="400ms">
-          <div class="w-100 ml-5">
-            <h5 class="text-left">Technical Support</h5>
+        <div id="tpvs" class="flip-boxes wow fadeInLeft" data-wow-delay="400ms">
+          <div class="w-100">
+            <h5 class="text-left">Installation & Maintenance <br> of POS Terminals</h5>
           </div>
-         <div class="flip-box box-contact-center mt-0">
-            <div class="flip-box-inner box-contact-center mt-1">
+         <div class="flip-box box-all-services mt-0">
+            <div class="flip-box-inner box-all-services mt-1">
                <div class="flip-box-front contactCenter-services p-3">
-                <img src="/octopus/img/contact-center/services/soporte_tecnico.jpg" alt="Technical Support">
+                <img src="/octopus/img/field-services/instalacionymantenimientodeTPV.jpg" alt="Installation and maintenance of POS terminals">
                </div>
                <div class="flip-box-back flip-contact contactCenter-services mt-0 align-items-start p-3">
-                <img src="/octopus/img/contact-center/icons/soportetecnico.svg" alt="Technical Support">
-                <p class="text-left p-0 mt-2 textBox-contact">We offer accurate and efficient solutions, backed by a team of highly qualified experts. Each interaction combines empathy for customer needs with deep technical knowledge, ensuring quick and effective responses to any challenge. Our specialists not only solve problems, but also teach and empower users, enhancing their experience and satisfaction with our products and services.
-                </p>
+                <img src="/octopus/img/services/icons/mantenimiento_tps.svg" alt="POS services icon">
+                <p class="text-left p-0 mt-2">We understand the importance of the financial sector and its SLAs, which is why we have a specialized infrastructure of engineers for various services related to the installation and maintenance of point-of-sale terminals.</p>
                </div>
             </div>
          </div>
         </div>
         <!-- Box-5 -->
-        <div id="encuestas" class="flip-boxes wow fadeInLeft" data-wow-delay="400ms">
-          <div class="w-100 ml-5">
-            <h5 class="text-left">Conducting surveys</h5>
+        <div id="delivery" class="flip-boxes wow fadeInLeft" data-wow-delay="400ms">
+          <div class="w-100">
+            <h5 class="text-left pt-md-3 mt-md-1">Delivery</h5>
           </div>
-         <div class="flip-box box-contact-center mt-0">
-            <div class="flip-box-inner box-contact-center mt-1">
+         <div class="flip-box box-all-services mt-0">
+            <div class="flip-box-inner box-all-services mt-1">
                <div class="flip-box-front contactCenter-services p-3">
-                <img src="/octopus/img/contact-center/services/encuestas.jpg" alt="Conducting surveys">
+                <img src="/octopus/img/contact-center/services/delivery.jpg" alt="Delivery services">
                </div>
                <div class="flip-box-back flip-contact contactCenter-services mt-0 align-items-start p-3">
-                <img src="/octopus/img/contact-center/icons/encuestas.svg" alt="Conducting surveys">
-                <p class="text-left p-0 mt-2 textBox-contact">
-                    Our survey campaigns collect key data directly from the target market using proven methodologies and a trained team, maximizing quality and response rates. This data helps companies make informed decisions, better understand customers, measure satisfaction, and identify opportunities for improvement.
-                </p>
+                <img src="/octopus/img/services/icons/delivery.svg" alt="Delivery icon">
+                <p class="text-left p-0 mt-2">We receive your merchandise, dispatch and manage your orders, track deliveries, and ensure fulfillment. We work with global management systems complemented by our logistics capabilities.</p>
                </div>
             </div>
          </div>
@@ -450,17 +468,18 @@
 
     </div>
 </section>
+
  <!-- End Services -->
 
 
 
 <script>
-    $(".ui-block-31.about .about-box box-contact-exp").on("mouseenter", function () {
-        $(".ui-block-31.about .about-box box-contact-exp.active").addClass("about-box box-contact-exp-green");
+    $(".ui-block-31.about .about-box box-fields-exp").on("mouseenter", function () {
+        $(".ui-block-31.about .about-box box-fields-exp.active").addClass("about-box box-fields-exp-green");
     })
 
-    $(".ui-block-31.about .about-box box-contact-exp").on("mouseleave", function () {
-        $(".ui-block-31.about .about-box box-contact-exp.active").removeClass("about-box box-contact-exp-green");
+    $(".ui-block-31.about .about-box box-fields-exp").on("mouseleave", function () {
+        $(".ui-block-31.about .about-box box-fields-exp.active").removeClass("about-box box-fields-exp-green");
     })
 </script>
 <!-- Cut the script tag including the script and paste it before the body ending tag at the bottom of your html file -->
@@ -468,6 +487,7 @@
 <!-- End ui-block-31 -->
 </section>
 <!-- Start Tools -->
+
 
 <div class="modal fade" id="formModal" aria-hidden="true" aria-labelledby="formModalLabel" tabindex="-1">
     <button type="button" class="btn-close-w" data-bs-dismiss="modal" aria-label="Close">
@@ -483,8 +503,6 @@
   </div>
 </div>
 </div>
-
-
 <!-- Modal RH -->
 <div class="modal fade" id="formModalRH" aria-hidden="true" aria-labelledby="formModalLabel" tabindex="-1">
     <button type="button" class="btn-close-w" data-bs-dismiss="modal" aria-label="Close">
@@ -506,11 +524,6 @@
       </div>
     </div>
 </div>
-  
-
-
-
-
 <!-- Start Footer -->
 <footer id="site-footer" class="mx-3 bgprimary padding_top ui-block-06 footer mt-4">
     <div class="text-left mx-5">
@@ -598,7 +611,13 @@
           <img src="/octopus/img/icons/pulpibot-eng.png" alt="pulpibot">
         </a>
       </div>
-</div>
+  </div>
+
+<!--Leaf-->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+
 
 <!-- JavaScript -->
 <script src="/vendor/js/bundle.min.js"></script>
@@ -626,6 +645,11 @@
 <script src="/octopus/js/morphext.min.js"></script>
 <!-- Menu links File -->
 <script src="/octopus/js/menu-links.js"></script>
+
+<!--MAP-->
+<script src="/octopus/js/jquery.fancybox.min.js"></script>
+<script src="/octopus/js/swiper.min.js"></script>
+<script src="/octopus/js/owl.carousel.js"></script>
 
 <!-- REVOLUTION JS FILES -->
 <script src="/vendor/js/jquery.themepunch.tools.min.js"></script>
@@ -677,5 +701,6 @@
         }
     }
 </script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2prQcZu_jjHFXyFkvhWHfjbH2wajkrSk&libraries=places&callback=initMap" defer></script>
 </body>
 </html>
