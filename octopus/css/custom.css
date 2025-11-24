@@ -2119,6 +2119,27 @@ a.editor-create {
   }
 }
 
+
+/* Max 1375px - Min 1200px */
+@media only screen and (max-width: 85.9375em) and (min-width: 75em) {
+
+  /* Ajustar columnas de 7/5 a 6/6 */
+  .col-7 {
+    flex: 0 0 auto;
+    width: 50% !important; /* col-6 */
+  }
+
+  .col-5 {
+    flex: 0 0 auto;
+    width: 50% !important; /* col-6 */
+  }
+
+}
+
+
+
+
+
 /*Max 1023px - min 778*/
 @media only screen and (max-width:63.9375em) and (min-width:48.625em) {
 
